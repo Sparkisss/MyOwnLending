@@ -1,7 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Montserrat';
     background-color: $back;
     color: $text;      
+}
+
+@mixin font {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
 }
 
 .image {
@@ -9,4 +21,20 @@ body {
     height: 500px;
     background-size: cover;
     background-image: url('img/Photo.png');
+}
+
+.block:not(.first) {
+    background-color: red;
+    height: 200px;
+    margin: 20px;
+}
+
+#central_block {
+    padding: 30px;
+
+    ul {
+        list-style: none;
+        display: inline-block;
+        @include font;
+    }
 }
