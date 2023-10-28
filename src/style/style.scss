@@ -54,8 +54,8 @@ header {
                 font-weight: 400;
                 color: #4d4d4d;
                 cursor: pointer;
-                position: relative;
-                &:hover::after {
+                position: relative;                             
+                &:hover::after {                    
                     position: absolute;
                     content: "";
                     width: 100%;
