@@ -20,7 +20,8 @@
 }
 
 @media (max-width: 767px)  {
-    .about_me {        
+    .about_me {
+        margin-bottom: 4.688rem;        
         display: flex;
         flex-direction: column;
         .about__info {
@@ -33,10 +34,31 @@
             }
         }
     }
+    .services {
+        .services__title {
+            font-size: 2.25rem;
+            margin-bottom: 4.375rem;
+            }
+        .services__icon{
+            grid-column-gap: 0.938rem;
+            grid-row-gap: 5.313rem;
+            margin: 0 3.125rem;        
+            .services__icon-item {           
+                img {
+                    width: 4.375rem;
+                    height: 4.375rem;
+                }
+                .icon-item-text {
+                    font-size: 1.125rem;
+                }
+            }        
+        }
+    }
 }
 
 @media (max-width: 650px)  {
     .about_me {
+        margin-bottom: 2.188rem;
         .about__info {
             .about__info-title {
                 font-size: 1.625rem;
@@ -54,6 +76,26 @@
         }
         .about__image {
             min-height: 300px;
+        }
+    }
+    .services {
+        .services__title {
+            font-size: 1.5rem;
+            margin-bottom: 1.25rem;
+            }
+        .services__icon{
+            grid-column-gap: 0.625rem;
+            grid-row-gap: 3.125rem;       
+            .services__icon-item {           
+                img {
+                    width: 3.125rem;
+                    height: 3.125rem;
+                }
+                .icon-item-text {
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                }
+            }        
         }
     }
 }
@@ -80,6 +122,22 @@
         }
         .about__image {
             min-height: 12.5rem;
+        }
+    }
+    .services {
+        .services__icon{
+            grid-column-gap: 0.625rem;
+            grid-row-gap: 3.125rem;       
+            .services__icon-item {           
+                img {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+                .icon-item-text {
+                    font-size: 0.75rem;
+                    line-height: 1rem;
+                }
+            }        
         }
     }
 }

@@ -216,6 +216,7 @@ header {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 15px;
         grid-row-gap: 85px;
+        align-items: start;
         margin: 0 50px;        
         .services__icon-item {
             display: flex;
@@ -227,6 +228,7 @@ header {
                 width: 77px;
                 height: 77px;
                 display: flex;
+                margin-bottom: 5px;
             }
             .icon-item-text {
                 font-family: Asap;
@@ -235,10 +237,24 @@ header {
                 font-weight: 500;
                 color: #4d4d4d;
             }
-        }
-        
+        }        
     }
-
 }
 //
+// slills
+.my__skills {
+    .skills{
+        .skills__header{
+            opacity: 0.8;
+            font-family: Asap;
+            font-size: 46px;
+            line-height: 49px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: #4d4d4d;
+            text-align: center;
+        }
+    }
+}
+// 
 // 

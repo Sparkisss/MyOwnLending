@@ -8,5 +8,4 @@ menuBurger.addEventListener('click', () => {
     menuBurger.classList.toggle('active');
     menu.classList.toggle('active');
     anyScroll.classList.toggle('lock');
-    console.log('click');
 });
