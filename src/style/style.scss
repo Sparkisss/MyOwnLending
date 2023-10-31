@@ -198,18 +198,18 @@ header {
 // 
 // services
 .services {
-    margin-bottom: 250px;
+    margin-bottom: 12.5rem;
     .services__title {
         text-align: center;
         opacity: 0.8;
         font-family: Asap;
-        font-size: 46px;
-        line-height: 49px;
+        font-size: 2.875rem;
+        line-height: 3.063rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.12em;
         color: #4d4d4d;
-        margin-bottom: 70px;
+        margin-bottom: 4.375rem;
         }
     .services__icon{
         display: grid;
@@ -243,12 +243,13 @@ header {
 //
 // slills
 .my__skills {
+    margin-bottom: 150px;
     .skills{
         .skills__header{
             opacity: 0.8;
             font-family: Asap;
-            font-size: 46px;
-            line-height: 49px;
+            font-size: 2.875rem;
+            line-height: 3.063rem;
             font-weight: 700;
             letter-spacing: 0.12em;
             color: #4d4d4d;
@@ -257,4 +258,43 @@ header {
     }
 }
 // 
+//portfolio
+.my__portfolio{
+    min-height: 100%;
+    .portfolio {
+        .portfolio__title {
+            width: 100%;
+            opacity: 0.8;
+            font-family: Asap;
+            font-size: 46px;
+            line-height: 49px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #4d4d4d;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .portfolio__item {
+            margin: 0 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+            max-width: 100%;
+            height: 100%;
+            // position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                // position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        
+    }
+}
+//
 // 
