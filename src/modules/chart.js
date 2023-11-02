@@ -16,7 +16,7 @@ import Chart from 'chart.js/auto';
       {
         type: 'line',
         data: {
-          labels: ['0', 'HTML', '', 'CSS', '', 'SCSS', 'JS', ''],
+          labels: ['0', 'HTML', '', 'CSS', '', 'SCSS', '', 'JS', ''],
           datasets: [
             {
               label: '',
