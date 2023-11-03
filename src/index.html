@@ -39,8 +39,8 @@
                             <div class="content__info-title">Luis Oenrique</div>
                             <div class="content__info-text">User Experience / User Interface Expert</div>
                             <div class="content__info-button">
-                                <a class="content__info-button first" href="#">KNOW MORE</a>
-                                <a class="content__info-button second" href="#">HIRE ME</a>
+                                <a class="btn" href="#">KNOW MORE</a>
+                                <a class="btn" href="#">HIRE ME</a>
                             </div>
                         </article>
                         <article class="content__image">                            
@@ -55,7 +55,7 @@
                 <div class="container">
                     <section class="about_me">
                         <article class="about__info">
-                            <div class="about__info-title">KNOW MORE ABOUT ME</div>
+                            <div class="about__info-title title">KNOW MORE ABOUT ME</div>
                             <div class="about__info-text">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                                 Aenean commodo ligula eget dolor. Aenean massa. 
@@ -63,7 +63,7 @@
                                 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                             </div>
                             <div class="about__info-button">
-                                <a href="#">DOWNLOAD MY CV</a>
+                                <a class="btn" href="#">DOWNLOAD MY CV</a>
                             </div>
                         </article>
                         <article class="about__image">
@@ -72,7 +72,7 @@
                     </section>
                     <section class="services__wrapper">
                         <article class="services">
-                            <div class="services__title">SERVICES</div>
+                            <div class="services__title title">SERVICES</div>
                             <div class="services__icon">
                                 <div class="services__icon-item">
                                     <img src="/src/img/main/icon/userResearch.png" alt="er">
@@ -103,13 +103,13 @@
                     </section>
                     <section class="my__skills">
                         <article class="skills">
-                            <div class="skills__header">MY SKILLS</div>                            
+                            <div class="skills__title title">MY SKILLS</div>                            
                             <canvas id="chart" width="375px" height="175px"></canvas>                           
                         </article>
                     </section>
                     <section class="my__portfolio">
                         <article class="portfolio">
-                            <div class="portfolio__title">PORTFOLIO</div>
+                            <div class="portfolio__title title">PORTFOLIO</div>
                             <div class="portfolio__item">
                                 <img src="/src/img/main/portfolio/1.png" alt="e">
                                 <img src="/src/img/main/portfolio/2.png" alt="e">
@@ -119,19 +119,24 @@
                                 <img src="/src/img/main/portfolio/6.png" alt="e">
                             </div>
                             <div class="portfolio__button">
-                                <a href="#">LOAD MORE</a>
+                                <a class="btn" href="#">LOAD MORE</a>
                             </div>
                         </article>
                     </section>
                     <section class="my__testimation">
                         <article class="testimation">
-                            <div class="testimation__title">TESTIMONIALS</div>
+                            <div class="testimation__title title">TESTIMONIALS</div>
                             <div class="testimation__slider">
-                                <div class="slider__title">Limara Tusi</div>
-                                <div class="slider__subtitle">CEO, RANDOM COMPANY</div>
-                                <div class="slider__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusamus eius aperiam atque minima odio assumenda quae optio culpa quas incidunt similique dolor natus voluptatibus maiores veniam unde voluptates molestiae?
+                                <div class="slider__image">
+                                    <img src="/src/img/main/photo/girl.png" alt="e">
                                 </div>
+                                <div class="slider__content">
+                                    <div class="slider__title">Limara Tusi</div>
+                                    <div class="slider__subtitle">CEO, RANDOM COMPANY</div>
+                                    <div class="slider__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusamus eius aperiam atque minima odio assumenda quae optio culpa quas incidunt similique dolor natus voluptatibus maiores veniam unde voluptates molestiae?
+                                    </div>
+                                </div>                                
                             </div>
                         </article>
                     </section>
@@ -165,32 +170,50 @@
             </main>
         </div>        
             <footer>
-            <div class="container__footer">
-                <div class="footer__title">SAY HELLO!</div>
-                <section class="form">
-                    <input class="name" type="text" name="Name" value="Name">
-                    <input class="email" type="text" name="Email" value="Email">
-                    <textarea class="area" name="text"> Message</textarea>
-                    <button class="btn" type="submit">
-                        <div class="button__text">SEND</div>
-                        <img src="/src/img/footer/send_button.png" alt="">
-                    </button>
-                </section>
-            </div>
-                <section class="about_footer">
-                    <div class="container">
+                <div class="container__footer">
+                    <div class="title footer__title">SAY HELLO!</div>
+                    <section class="form">
+                        <input class="name" type="text" name="Name" value="Name">
+                        <input class="email" type="text" name="Email" value="Email">
+                        <textarea class="area" name="text">Message</textarea>
+                        <button class="btn" type="submit">
+                            <div class="button__text">SEND</div>
+                            <img src="/src/img/footer/send_button.png" alt="">
+                        </button>
+                    </section>
+                </div>
+                <section class="about__footer">
+                    <div class="container footer">
                         <div class="footer__icon">
-                            <img src="/src/img/footer/social_media_icon/f.png" alt="e">
-                            <img src="/src/img/footer/social_media_icon/twitter.png" alt="e">
-                            <img src="/src/img/footer/social_media_icon/ln.png" alt="e">
-                            <img src="/src/img/footer/social_media_icon/g.png" alt="e">
-                            <img src="/src/img/footer/social_media_icon/be.png" alt="e">
-                            <img src="/src/img/footer/social_media_icon/ball.png" alt="e">
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/f.png" alt="e">
+                            </div>
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/twitter.png" alt="e">
+                            </div>
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/ln.png" alt="e">
+                            </div>
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/g.png" alt="e">
+                            </div>
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/be.png" alt="e">
+                            </div>
+                            <div class="footer__icon-wrapper">
+                                <img src="/src/img/footer/social_media_icon/ball.png" alt="e">
+                            </div>                          
                         </div>
                         <div class="footer__text">2017. All Right Reserved</div>
                     </div>                    
                 </section>
-            
+                <div class="footer__up">
+                    <div class="up__btn">
+                        <a href="#">
+                            <img src="/src/img/footer/up__btn.png" alt="">
+                        </a>
+                    </div>
+                </div>
             </footer>        
     </div>
 </body>
