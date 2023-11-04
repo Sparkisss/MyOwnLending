@@ -1,48 +1,68 @@
-@media (max-width: 1023px)  {
-    .about_me {
-        .about__info {
-            .about__info-title {
-                font-size: 2rem;
-                line-height: 2.375rem;
-                margin-bottom: 0.5rem;
+@media (max-width: 1025px)  {
+    .title {
+        font-size: $titleSize1025;
+    }    
+    .about_me,
+    .services__wrapper,
+    .my__skills,
+    .my__portfolio,
+    .testimation {
+        padding: $padding1025;
+    }
+    .icon_about,
+    footer{
+        .container__footer {
+            padding-bottom: $paddingOther1025;
+        } 
+    } 
+    .icon__items {
+        .icon__item {
+            img {
+                margin: 0 auto;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 30px;
             }
-            .about__info-text {           
-                line-height: 1.375rem;
-                margin-bottom: 2.188rem;
+            .icon__number {
+                font-size: 22px;
+                line-height: 32px;
             }
-            .about__info-button {
-                a {       
-                    font-size: 0.875rem;
-                }
+            .icon__text {
+                font-size: 16px;
+                line-height: 32px;
             }
         }
     }
-    .services {
-        margin-bottom: 8.75rem;
-    }
 }
 
-@media (max-width: 767px)  {
-    .about_me {
-        margin-bottom: 4.688rem;        
+@media (max-width: 769px)  {
+    .title {
+        font-size: $titleSize769;
+    }    
+    .about_me,
+    .services__wrapper,
+    .my__skills,
+    .my__portfolio,
+    .testimation {
+        padding: $padding769;
+    }
+    .icon_about,
+    footer{
+        .container__footer {
+            padding-bottom: $paddingOther769;
+        } 
+    } 
+    .about_me {        
         display: flex;
         flex-direction: column;
         .about__info {
             padding-right: 0;
-            .about__info-title {
-                font-size: 2.375rem;
-            }
             .about__info-button {
                 margin-bottom: 3.125rem;
             }
         }
     }
     .services {
-        margin-bottom: 6.25rem;
-        .services__title {
-            font-size: 2.25rem;
-            margin-bottom: 4.375rem;
-            }
         .services__icon{
             grid-column-gap: 0.938rem;
             grid-row-gap: 5.313rem;
@@ -58,14 +78,7 @@
             }        
         }
     }
-    .my__skills {
-        margin-bottom: 6.25rem;
-        .skills{
-            .skills__header{
-                font-size: 2.25rem;
-            }
-        }
-    }
+    
 }
 
 @media (max-width: 650px)  {
@@ -90,12 +103,7 @@
             min-height: 300px;
         }
     }
-    .services {
-        margin-bottom: 50px;
-        .services__title {
-            font-size: 1.5rem;
-            margin-bottom: 1.25rem;
-            }
+    .services {  
         .services__icon{
             grid-column-gap: 0.625rem;
             grid-row-gap: 3.125rem;       
@@ -111,11 +119,20 @@
             }        
         }
     }
-        .my__skills {
-            margin-bottom: 3.125rem;
-        .skills{
-            .skills__header{
-                font-size: 1.875rem;
+    .testimation {
+        .testimation__slider {        
+            height: 349px;
+            .slider__content {
+                .slider__title {               
+                    font-size: 30px;
+                }
+                .slider__subtitle {
+                    font-size: 12px;
+                    margin-bottom: 7px;
+                }
+                .slider__text {
+                    font-size: 14px;
+                }
             }
         }
     }
@@ -162,3 +179,5 @@
         }
     }
 }
+
+
