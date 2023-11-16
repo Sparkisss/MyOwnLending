@@ -1,10 +1,9 @@
 import './index.html';
 import './index.scss';
 import "@babel/polyfill";
-import './modules/menuBurger';
-import './modules/chart';
-import './modules/slider';
-
+import './modules/showeInfo';
+import './modules/constructor'
+import './modules/post'
 
 
 

@@ -1,0 +1,22 @@
+{
+    "Equipment": [
+        {
+            "name": "supplyValveEvents",
+            "model": "Danfoss DN65",
+            "setDate": "11-04-21",
+            "condition": "fab",
+            "useDate": "11-10-23",
+            "setpoint": "open",
+            "parent": ".modal "
+        },
+        {
+            "name": "outputValve",
+            "model": "Danfoss DN65",
+            "setDate": "11-04-21",
+            "condition": "good",
+            "useDate": "11-10-23",
+            "setpoint": "close",
+            "parent": ".modal "
+        }
+    ]
+}

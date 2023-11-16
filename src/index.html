@@ -4,262 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="img/favicon.png" type="image/png"> -->
 
     <title>Document</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header__menu">       
-            <div class="container">  
-                <div class="main__header">              
-                    <section class="menu">
-                        <article class="logo">
-                            <img class="logo__image" src="/src/img/header/logo.png" alt="">
-                            <div class="logo__title">OENRIQUE</div>
-                            <div class="logo__text">UX/UI EXPERT</div>
-                        </article>
-                        <div class="burger__point">
-                            <span></span>
-                        </div>
-                        <nav class="point">
-                            <ul class="point__menu">
-                                <li class="point__home">Home</li>
-                                <li class="point__about">ABOUT</li>
-                                <li class="point__service">SERVICE</li>
-                                <li class="point__portfolio">PORTFOLIO</li>
-                                <li class="point__contact">CONTACT</li>
-                            </ul>                            
-                        </nav>
-                    </section>            
-                    <section class="header_content">
-                        <article class="content__info">
-                            <div class="content__info-title">Luis Oenrique</div>
-                            <div class="content__info-text">User Experience / User Interface Expert</div>
-                            <div class="content__info-button">
-                                <a class="btn" href="#">KNOW MORE</a>
-                                <a class="btn" href="#">HIRE ME</a>
-                            </div>
-                        </article>
-                        <article class="content__image">                            
-                                <img class="item__image-man" src="/src/img/header/man.png" alt="">                  
-                        </article>
-                    </section> 
-                </div>
+        <div class="container">
+            <div class="header">
+                <article class="logo">
+                    <div class="logo__wrapper">
+                        <img class="logo__image" src="/src/img/dollar.png" alt="">
+                        <div class="logo__title"> "ПампТехСервис"</div>
+                    </div>                
+                </article>
+                <div class="motto">Power of technology</div>
+                <nav>
+                    <div class="contact">Contact</div>
+                </nav>
             </div>
-        </header> 
+        </div>
         
-        <main>
-            <div class="container">
-                <section class="about_me">
-                    <article class="about__info">
-                        <div class="about__info-title title">KNOW MORE ABOUT ME</div>
-                        <div class="about__info-text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        <div class="container">
+            <main class="content">
+                <h1 class="heading">Объект: Корова 122</h1>
+                <section class="control">
+                    <div class="control__info">
+                        <div class="control__info-heading">Общие показания:</div>
+                        <ul>
+                            <li>Температура наружнего воздуха: 15</li>
+                            <li>Погода: дождь</li>
+                            <li>Рекомендованная температура теплоносителя: 39</li>
+                            <li>Температура подачи: 42</li>
+                            <li>Температура обратки: 32</li>
+                            <li>Статус: жалоб нет</li>
+                        </ul>
+                        <div class="control__info-button">
+                            <a class="control__info-button-link" href="">Обновить данные</a>
                         </div>
-                        <div class="about__info-button">
-                            <a class="btn" href="#">DOWNLOAD MY CV</a>
+                    </div>
+                    <div class="control__graphics">
+                        <img id="myImage" src="/src/img/objectSecret.PNG" alt="">
+                    </div>
+                    <div class="modal hidden">
+                        <div class="modal__container">
+                            <!-- <div class="modal__content">
+                                <ul>
+                                    <li>Модель: тест</li>
+                                    <li>Дата установки: тест</li>
+                                    <li>Состояние: тест</li>
+                                    <li>Дата обслуживания: тест</li>
+                                    <li>Текущие уставки: тест</li>
+                                </ul>
+                            </div> -->
                         </div>
-                    </article>
-                    <article class="about__image">
-                        <img src="/src/img/main/photo/study.png" alt="">
-                    </article>
+                    </div>
                 </section>
-            </div>
-            <section class="services__wrapper">
-                <div class="container">
-                    <article class="services">
-                        <div class="services__title title">SERVICES</div>
-                        <div class="services__icon">
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/userResearch.png" alt="er">
-                                <div class="icon-item-text">User Research</div>
-                            </div>
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/iaAndWireframes.png" alt="er">
-                                <div class="icon-item-text">IA And Wireframes</div>
-                            </div>
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/userTesting.png" alt="er">
-                                <div class="icon-item-text">User Testing</div>
-                            </div>  
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/lookAndFeel.png" alt="er">
-                                <div class="icon-item-text">Looks and Feel Design (UI)</div>
-                            </div>   
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/delivery.png" alt="er">
-                                <div class="icon-item-text">Delivery</div>
-                            </div>
-                            <div class="services__icon-item">
-                                <img src="/src/img/main/icon/integrationSupport.png" alt="er">
-                                <div class="icon-item-text">Integration Support</div>
-                            </div>                              
-                        </div>
-                    </article>
-                </div>
                 
-
-            </section>
-            <div class="container">
-                <section class="my__skills">
-                    <article class="skills">
-                        <div class="skills__title title">MY SKILLS</div>                            
-                        <canvas id="chart" width="375px" height="175px"></canvas>                           
-                    </article>
-                </section>
-            </div>            
-            <section class="my__portfolio">
-                <div class="container">
-                    <article class="portfolio">
-                        <div class="portfolio__title title">PORTFOLIO</div>
-                        <div class="portfolio__item">
-                            <img src="/src/img/main/portfolio/1.png" alt="e">
-                            <img src="/src/img/main/portfolio/2.png" alt="e">
-                            <img src="/src/img/main/portfolio/3.png" alt="e">
-                            <img src="/src/img/main/portfolio/4.png" alt="e">
-                            <img src="/src/img/main/portfolio/5.png" alt="e">
-                            <img src="/src/img/main/portfolio/6.png" alt="e">
-                        </div>
-                        <div class="portfolio__button">
-                            <a class="btn" href="#">LOAD MORE</a>
-                        </div>
-                    </article>
-                </div>                        
-            </section>
-            <div class="container">
-                <section class="my__testimation">
-                    <article class="testimation">
-                        <div class="testimation__nav">
-                            <div class="testimation__nav-one active"></div>
-                            <div class="testimation__nav-two"></div>
-                            <div class="testimation__nav-thre"></div>
-                        </div> 
-                        <div class="testimation__title title">TESTIMONIALS</div>
-                        <div class="offer__testimation-slider">
-                            <div class="testimation__slider">
-                                <div class="slider__image">
-                                    <img src="/src/img/main/photo/testimationOne.jpg" alt="e">
-                                </div>
-                                <div class="slider__content">
-                                    <div class="slider__title">Limara Tusi</div>
-                                    <div class="slider__subtitle">CEO, RANDOM COMPANY</div>
-                                    <div class="slider__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusamus eius aperiam atque minima odio assumenda quae optio culpa quas incidunt similique dolor natus voluptatibus maiores veniam unde voluptates molestiae?
-                                    </div>
-                                </div>                                 
-                            </div>
-                            <div class="testimation__slider">
-                                <div class="slider__image">
-                                    <img src="/src/img/main/photo/testimationTwo.jpg" alt="e">
-                                </div>
-                                <div class="slider__content">
-                                    <div class="slider__title">Limara Tusi</div>
-                                    <div class="slider__subtitle">CEO, RANDOM COMPANY</div>
-                                    <div class="slider__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusamus eius aperiam atque minima odio assumenda quae optio culpa quas incidunt similique dolor natus voluptatibus maiores veniam unde voluptates molestiae?
-                                    </div>
-                                </div>                              
-                            </div>
-                            <div class="testimation__slider">
-                                <div class="slider__image">
-                                    <img src="/src/img/main/photo/testimationThre.jpg" alt="e">
-                                </div>
-                                <div class="slider__content">
-                                    <div class="slider__title">Limara Tusi</div>
-                                    <div class="slider__subtitle">CEO, RANDOM COMPANY</div>
-                                    <div class="slider__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusamus eius aperiam atque minima odio assumenda quae optio culpa quas incidunt similique dolor natus voluptatibus maiores veniam unde voluptates molestiae?
-                                    </div>
-                                </div>                                
-                            </div>
-                        </div>
-                        
-                        
-                    </article>
-                </section>
-            </div>            
-            <section class="icon_about">                
-                <article class="icon">
-                    <div class="container">
-                        <div class="icon__items">
-                            <div class="icon__item">
-                                <img src="/src/img/main/icon/delivery.png" alt="">
-                                <div class="icon__number">120</div>
-                                <div class="icon__text">HANDS TO WORK</div>
-                            </div>
-                            <div class="icon__item">
-                                <img src="/src/img/main/icon/happiness.png" alt="">
-                                <div class="icon__number">120</div>
-                                <div class="icon__text">HANDS TO WORK</div>
-                            </div>
-                            <div class="icon__item">
-                                <img src="/src/img/main/icon/delivery_complete.png" alt="">
-                                <div class="icon__number">120</div>
-                                <div class="icon__text">HANDS TO WORK</div>
-                            </div>
-                            <div class="icon__item">
-                                <img src="/src/img/main/icon/cup.png" alt="">
-                                <div class="icon__number">120</div>
-                                <div class="icon__text">HANDS TO WORK</div>
-                            </div>
-                        </div>
-                    </div>
-                </article>                
-            </section>
-        </main>
-               
-            <footer>
-                <div class="container__footer">
-                    <div class="title footer__title">SAY HELLO!</div>
-                    <section class="form">
-                        <input class="name" type="text" name="Name" value="Name">
-                        <input class="email" type="text" name="Email" value="Email">
-                        <textarea class="area" name="text">Message</textarea>
-                        <button class="btn" type="submit">
-                            <div class="button__text">SEND</div>
-                            <img src="/src/img/footer/send_button.png" alt="">
-                        </button>
-                    </section>
-                </div>
-                <section class="about__footer">
-                    <div class="container footer">
-                        <div class="footer__icon">
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/f.png" alt="e">
-                            </div>
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/twitter.png" alt="e">
-                            </div>
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/ln.png" alt="e">
-                            </div>
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/g.png" alt="e">
-                            </div>
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/be.png" alt="e">
-                            </div>
-                            <div class="footer__icon-wrapper">
-                                <img src="/src/img/footer/social_media_icon/ball.png" alt="e">
-                            </div>                          
-                        </div>
-                        <div class="footer__text">2017. All Right Reserved</div>
-                    </div>                    
-                </section>
-                <div class="footer__up">
-                    <div class="up__btn">
-                        <a href="#">
-                            <img src="/src/img/footer/up__btn.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </footer>        
+            </main>
+        </div>
+        
+        <div class="test">Igir</div>
     </div>
 </body>
 </html>

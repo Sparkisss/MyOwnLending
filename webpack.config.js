@@ -13,7 +13,7 @@ module.exports = {
   target,
   devtool,
   devServer: {
-    port: 3000,
+    port: 4000,
     open: true,
     hot: true,
   },
@@ -37,6 +37,10 @@ module.exports = {
   ],
   module: {
     rules: [
+      // {
+      //   test: /\.json$/,        
+      //   use: 'json-loader'
+      // },
       {
         test: /\.html$/i,
         loader: 'html-loader',
