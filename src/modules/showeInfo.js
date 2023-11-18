@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const img = document.getElementById('myImage'),
         test = document.querySelector('.test'),
         modal = document.querySelector('.modal');
-  let numOfItem = 2;
+  let numOfItem;
   // Добавляем обработчик события "mouseover" к изображению
   img.addEventListener('mousemove', function(event) {
     // Получаем координаты курсора мыши относительно изображения
@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }
     else {
       img.classList.remove('active');
-      test.innerHTML = "Igor";      
+      test.innerHTML = "Независемая система отопления";      
     }
   });
   // Добавляем обработчик события "click" к изображению
@@ -115,7 +115,7 @@ window.addEventListener("DOMContentLoaded", () => {
     };
 // создаем контент на странице
     function createInfoOfStaff (data) {
-      data.forEach((item, i) => {
+      data.forEach((item, i) => {        
         if (i === numOfItem) {                
           new MenuTool(
             item.name,
@@ -128,7 +128,7 @@ window.addEventListener("DOMContentLoaded", () => {
           ).render();            
         }         
       }); 
-    } 
-    
+    }        
 });
 
+ 

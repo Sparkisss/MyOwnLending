@@ -1,22 +1,106 @@
 {
-    "Equipment": [
-        {
-            "name": "supplyValveEvents",
-            "model": "Danfoss DN65",
-            "setDate": "11-04-21",
-            "condition": "fab",
-            "useDate": "11-10-23",
-            "setpoint": "open",
-            "parent": ".modal "
-        },
-        {
-            "name": "outputValve",
-            "model": "Danfoss DN65",
-            "setDate": "11-04-21",
-            "condition": "good",
-            "useDate": "11-10-23",
-            "setpoint": "close",
-            "parent": ".modal "
-        }
-    ]
+  "Equipment": [
+    {
+      "name": "supplyValve",
+      "model": "Danfoss DN65",
+      "setDate": "11-04-21",
+      "condition": "fab",
+      "useDate": "11-10-23",
+      "setpoint": "open",
+      "id": 0,
+      "parent": ".modal "
+    },
+    {
+      "name": "outputValve",
+      "model": "Danfoss DN65",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "11-10-23",
+      "setpoint": "close",
+      "id": 1,
+      "parent": ".modal"
+    },
+    {
+      "name": "inputFilter",
+      "model": "Zetkama DN65",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "11-11-23",
+      "setpoint": "set",
+      "id": 2,
+      "parent": ".modal"
+    },
+    {
+      "name": "outputFilter",
+      "model": "Zetkama DN65",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "19-11-23",
+      "setpoint": "set",
+      "id": 3,
+      "parent": ".modal"
+    },
+    {
+      "name": "returnWaterTemperature",
+      "model": "DTS455E pt100",
+      "setDate": "11-04-21",
+      "condition": "normal",
+      "useDate": "11-02-23",
+      "setpoint": "33",
+      "id": 4,
+      "parent": ".modal"
+    },
+    {
+      "name": "turnWaterTemperature",
+      "model": "DTS455E pt100",
+      "setDate": "11-04-21",
+      "condition": "normal",
+      "useDate": "11-02-23",
+      "setpoint": "51",
+      "id": 5,
+      "parent": ".modal"
+    },
+    {
+      "name": "controlValve",
+      "model": "Danfoss - VB2",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "11-09-23",
+      "setpoint": "open 48%",
+      "id": 6,
+      "parent": ".modal"
+    },
+    {
+      "name": "pump",
+      "model": "Unipump UPF 65-120",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "11-01-23",
+      "setpoint": "on - speed 2",
+      "id": 7,
+      "parent": ".modal"
+    },
+    {
+      "name": "outputFilterFromHouse",
+      "model": "Zetkama DN65",
+      "setDate": "11-04-21",
+      "condition": "good",
+      "useDate": "19-11-23",
+      "setpoint": "set",
+      "id": 8,
+      "parent": ".modal"
+    },
+    {
+      "temperature": "15",
+      "id": "0.8628905532689206"
+    },
+    {
+      "temperature": "15",
+      "id": "0.7487862836097747"
+    },
+    {
+      "temperature": "15",
+      "id": "0.4989471570245436"
+    }
+  ]
 }
