@@ -34,7 +34,6 @@ function RainDrops(x, y, endy, velocity, opacity) {
 		}
 		this.draw();
 	}
-
 }
 
 let rainArray = [];
@@ -42,8 +41,8 @@ let rainArray = [];
 for (let i = 0; i < 140; i++) {
 	let rainXLocation = Math.floor(Math.random() * window.innerWidth) + 1;
 	let rainYLocation = Math.random() * -500;
-	let randomRainHeight = randomNum(10, 2);
-	let randomSpeed = randomNum(20, .2);
+	let randomRainHeight = randomNum(10, 2);//то что мне нужно
+	let randomSpeed = randomNum(20, 0.2);
 	let randomOpacity = Math.random() * .55;
 	rainArray.push(new RainDrops(rainXLocation, rainYLocation, randomRainHeight, randomSpeed, randomOpacity));
 }
@@ -56,7 +55,6 @@ function animateRain() {
 	for (let i = 0; i < rainArray.length; i++) {
 		rainArray[i].update();
 	}
-
 }
 
 animateRain();

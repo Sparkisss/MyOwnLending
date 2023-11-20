@@ -2,7 +2,7 @@ import { MainInfo } from "./constructor";
 
 const apiKey =  "c3ce5c27c2eab8287f2be14870b310cb",
       apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=Brest&appid=${apiKey}`;
-const button = document.querySelector('.control__info-button');
+const button = document.querySelector('.button-start');
 
 // console.log(infoArea);
 
